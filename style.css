@@ -50,23 +50,18 @@ section {
     border-radius: 15px;
 }
 
-section {
-    background-color: rgba(211, 166, 211, 0.604);
-}
-
 nav{
-    background-color: rgba(211, 166, 211, 0.745);
-    margin-left: 20px;
+    margin-left: 1.2em;
 }
 
 nav, li{
-    padding: 20px;
+    padding: 1.2em;
 }
 
 nav li {
-    padding: 20px;
-    text-align: start;
-    justify-content: space-between;
+    padding: 1.2em;
+    text-align: start !important;
+    justify-content: space-around !important;
 }
 
 footer {
@@ -83,7 +78,7 @@ button{
     text-decoration: none;
     color: #000000;
 }
-a {
+/*a {
     color: #000000;
 }
 a:hover {
@@ -94,7 +89,7 @@ button{
     border-radius: 5px;
     background-color: white;
     padding: 3px;
-}
+}*/
 
 .redes {
     font-weight: lighter;
@@ -116,17 +111,17 @@ footer {
     justify-content: center;
 }
 
-article{
+/*article{
     background-color: rgb(255, 255, 255);
     border-radius: 15px;
     text-align: center;
-}
+}*/
 
 
-img{
-    width: 100px;
-    height: 100px;
-}
+/*img{
+    width: 6em;
+    height: 6em;
+}*/
 
 section{
     padding: 20px;
@@ -164,7 +159,7 @@ footer {
     margin-bottom: -40px;
 }
 
-
+/*.....!PANTALLAS MEDIANAS DESDE 768PX!.....*/
 @media screen and (min-width: 768px) {
     #main {
         grid-template-columns: auto;
@@ -185,76 +180,76 @@ footer {
     }
 
     .secfull {
-        width: 134%;
-        margin-top: 195px !important ;
+        width: 135.5%;
+        margin-top: 12.2em !important ;
     }
     #navfull {
-        margin-right: 10px !important;
+        margin-right: 0.7em !important;
     }
     #footfull {
-        width: 134%;
-        margin-left: 18px;
-        margin-top: 7px;
+        width: 135%;
+        margin-left: 1.2em;
+        margin-top: 0.6em;
     }
 
-     /*.......seccion.........*/
+     /*.......NUESTROS.........*/
     .secfullnu {
-        width: 119%;
-        margin-top: 195px !important;
+        width: 119.9%;
+        margin-top: 12.2em !important;
     }
     #footfullnu {
-        width: 119%;
-        margin-left: 18px;
-        margin-top: 7px;
+        width: 119.4%;
+        margin-left: 1.2em;
+        margin-top: 0.6em;
     }
-     /*.......seccion.........*/
+     /*.......NOVEDADES.........*/
     .secfullno {
         width: 101.5%;
-        margin-top: 195px !important;
+        margin-top: 12.2em !important;
     }
     #footfullno {
         width: 101%;
-        margin-left: 18px;
-        margin-top: 140px;
+        margin-left: 1.2em;
+        margin-top: 0.6em;
     }
-     /*.......seccion.........*/
+     /*.......DONACIONES.........*/
     .secfulldo {
         width: 101% !important;
-        margin-top: 170px !important;
+        margin-top: 10.7em !important;
     }
     #navfulldo {
-        margin-top: -5px !important;
-        margin-right: 12px !important;
+        margin-top: -0.3em !important;
+        margin-right: 0.7em !important;
     }
     #footfulldo {
         width: 101%;
-        margin-left: 18px;
-        margin-top: 180px;
+        margin-left: 1.2em;
+        margin-top: 0.6em;
     }
-     /*.......seccion.........*/
+     /*.......CONTACTO.........*/
      .secfullco {
         width: 131%;
-        margin-top: 195px !important;
+        margin-top: 12.2em !important;
     }
      #footfullco {
         width: 131%;
-        margin-left: 18px;
-        margin-top: 325px !important;
+        margin-left: 1.2em;
+        margin-top: 0.6em !important;
     }
-     /*.......seccion.........*/
+     /*.......NOSOTROS.........*/
     .secfullnos {
         width: 101.5%;
-        margin-top: 195px !important;
+        margin-top: 12.2em !important;
     }
     #footfullnos {
         width: 102%;
-        margin-left: 18px;
-        margin-top: 465px !important;
+        margin-left: 1.2em;
+        margin-top: 9em !important;
     }
 
     
 }
-
+/*.....!PANTALLAS GRANDES DESDE 1200PX!.....*/
 @media screen and (min-width: 1200px) {
     #main {
         grid-template-columns: auto auto auto ;
@@ -275,71 +270,71 @@ footer {
     }
 
     .secfull {
-        width: 193%;
-        margin-top: 130px !important;
+        width: 184.3%;
+        margin-top: 8.1em !important;
     }
     #navfull {
-        padding-right: 267px !important;
+        padding-right: 7.5em !important;
     }
     #footfull {
-        width: 193%;
-        margin-left: 18px;
+        width: 183%;
+        margin-left: 1.3em;
     }
-     /*.......seccion.........*/
+     /*.......NUESTROS.........*/
     .secfullnu {
-        width: 170%;
-        margin-top: 130px !important;
+        width: 161%;
+        margin-top: 8.1em !important;
     }
     #footfullnu {
-        width: 170%;
-        margin-left: 18px;
+        width: 160%;
+        margin-left: 1.3em;
     }
-     /*.......seccion.........*/
+     /*.......NOVEDADES.........*/
     .secfullno {
-        width: 101%;
-        margin-top: 130px !important;
+        width: 101.5%;
+        margin-top: 8.1em !important;
     }
     #footfullno {
-        width: 101%;
-        margin-left: 18px;
+        width: 101.5%;
+        margin-left: 1.3em;
     }
-     /*.......seccion.........*/
-    .secfullco {
-        width: 185%;
-        margin-top: 130px !important;
-    }
-    #footfullco {
-        width: 185%;
-        margin-left: 18px;
-        margin-top: 85px !important;
-    }
-     /*.......seccion.........*/
+     /*.......DONACIONES.........*/
     .secfulldo {
-        width: 101% !important;
-        margin-top: 106px !important;
+        width: 101.5% !important;
+        margin-top: 6.6em !important;
     }
     #navfulldo {
-        padding-right: 267px !important;
-        margin-top: -4px;
+        padding-right: 7.5em !important;
+        margin-top: -0.8em;
     }
     #footfulldo {
         width: 101%;
-        margin-left: 18px;
-        margin-top: 150px;
+        margin-left: 1.3em;
+        margin-top: 9.5em;
     }
-     /*.......seccion.........*/
+     /*.......CONTACTO.........*/
+     .secfullco {
+        width: 176%;
+        margin-top: 8.1em !important;
+    }
+    #footfullco {
+        width: 175.5%;
+        margin-left: 1.3em;
+        margin-top: 5em !important;
+    }
+     /*.......NOSOTROS.........*/
     .secfullnos {
-        width: 101%;
-        margin-top: 130px !important;
+        width: 101.5%;
+        margin-top: 8.1em !important;
     }
     #footfullnos {
-        width: 102%;
-        margin-left: 18px;
-        margin-top: 300px !important;
+        width: 101.5%;
+        margin-left: 1.3em;
+        margin-top: 16em !important;
     }
 
 }
-   /* PARA DISPOSITIVOS DE 540 PX EN ADELANTE*/
+   /*.....!PANTALLAS PEQUEÑAS DESDE 540PX!.....*/
 @media screen and (max-width: 767px) {
     #main {
         grid-template-columns: auto;
@@ -360,42 +355,42 @@ footer {
     }
 
     .secfull {
-        width: 115.5%;
-        margin-top: 260px !important ;
+        width: 116.8%;
+        margin-top: 16.3em !important ;
     }
     #navfull {
-        margin-right: 12px !important;
+        margin-right: 0.9em !important;
     }
     #footfull {
         width: 116%;
-        margin-left: 18px;
-        margin-top: 5px !important;
+        margin-left: 1.3em;
+        margin-top: 0.6em !important;
     }
 
-     /*.......seccion.........*/
+     /*.......NUESTROS.........*/
     .secfullnu {
         width: 102%;
-        margin-top: 260px !important;
+        margin-top: 16.3em !important;
     }
     #footfullnu {
         width: 102% !important;
-        margin-left: 18px;
-        margin-top: 5px !important;
+        margin-left: 1.3em;
+        margin-top: 0.6em !important;
     }
-     /*.......seccion.........*/
+     /*.......NOVEDADES.........*/
     .secfullno {
         width: 101.5%;
-        margin-top: 260px !important;
+        margin-top: 16.3em !important;
     }
     #footfullno {
         width: 102%;
-        margin-left: 18px;
-        margin-top: 5px;
+        margin-left: 1.3em;
+        margin-top: 0.6em;
     }
-     /*.......seccion.........*/
+     /*.......DONACIONES.........*/
     .secfulldo {
         width: 102% !important;
-        margin-top: 235px !important;
+        margin-top: 14.7em !important;
     }
     #navfulldo {
         margin-top: -5px !important;
@@ -403,34 +398,117 @@ footer {
     }
     #footfulldo {
         width: 102%;
-        margin-left: 18px;
-        margin-top: 5px;
+        margin-left: 1.3em;
+        margin-top: 0.6em;
     }
-     /*.......seccion.........*/
+     /*.......CONTACTO.........*/
      .secfullco {
-        width: 115%;
-        margin-top: 260px !important;
+        width: 114.5%;
+        margin-top: 16.3em !important;
     }
      #footfullco {
         width: 115%;
-        margin-left: 18px;
-        margin-top: 265px !important;
+        margin-left: 1.3em;
+        margin-top: 0.6em !important;
     }
-     /*.......seccion.........*/
+     /*.......NOSOTROS.........*/
     .secfullnos {
         width: 101.5%;
-        margin-top: 260px !important;
+        margin-top: 16.3em !important;
     }
     #footfullnos {
         width: 102%;
-        margin-left: 18px;
-        margin-top: 290px !important;
+        margin-left: 1.3em;
+        margin-top: 0.6em !important;
     }
 
     
 }
+/*.....!PANTALLAS EXTRAGRANDES DESDE 1365PX!.....*/
+@media screen and (min-width: 1365px) {
+    #main {
+        grid-template-columns: auto auto auto ;
+        grid-template-rows: 20% auto 15% ;
+        grid-column-gap: 10px;
+        grid-row-gap: 15px;
+        grid-template-areas: "nav nav" "section section" "footer footer";
+    }
 
+    section {
+        grid-template-columns:  auto auto auto;
+        grid-template-rows: auto;
+        grid-column-gap: 15px;
+        grid-row-gap: 15px;
+        grid-template-areas: "section";
+        justify-items: stretch;
+        align-items: stretch;
+    }
 
+    .secfull {
+        width: 191.9%;
+        margin-top: 8.1em !important;
+    }
+    #navfull {
+        padding-right: 16.6em !important;
+    }
+    #footfull {
+        width: 190%;
+        margin-left: 1.6em;
+    }
+     /*.......NUESTROS.........*/
+    .secfullnu {
+        width: 168.5%;
+        margin-top: 8.1em !important;
+    }
+    #footfullnu {
+        width: 167% !important;
+        margin-left: 1.6em;
+    }
+     /*.......NOVEDADES.........*/
+    .secfullno {
+        width: 100.4%;
+        margin-top: 8.1em !important;
+    }
+    #footfullno {
+        width: 100%;
+        margin-left: 1.3em;
+    }
+     /*.......DONACIONES.........*/
+    .secfulldo {
+        width: 101.5% !important;
+        margin-top: 6.6em !important;
+    }
+    #navfulldo {
+        padding-right: 17.4em !important;
+        margin-top: -0.8em;
+    }
+    #footfulldo {
+        width: 101%;
+        margin-left: 1.3em;
+        margin-top: 12.5em;
+    }
+     /*.......CONTACTO.........*/
+     .secfullco {
+        width: 183.3%;
+        margin-top: 8.1em !important;
+    }
+    #footfullco {
+        width: 182.5%;
+        margin-left: 1.3em;
+        margin-top: 5.8em !important;
+    }
+     /*.......NOSOTROS.........*/
+    .secfullnos {
+        width: 100.5%;
+        margin-top: 8.1em !important;
+    }
+    #footfullnos {
+        width: 101.5%;
+        margin-left: 1.3em;
+        margin-top: 18.7em !important;
+    }
+
+}
 
 
 

@@ -1,0 +1,30 @@
+@import "_variables";
+body {
+     nav {
+         background-color: $colorNav;
+         a {
+          color: black;
+             }
+             a:hover {
+                 color: $colorA;
+             }
+         }
+     section {
+         background-color: $colorSec;
+         img {
+             width: $anchoImg;
+             height: $altoImg;
+         }
+         article {
+            background-color: $blanco;
+            border-radius: 1em;
+            text-align: center;
+            button {
+                border-radius: 1em;
+                background-color: $blanco;
+                padding: 1em;
+            }
+         }
+     }
+     
+}
