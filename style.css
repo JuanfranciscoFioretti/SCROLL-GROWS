@@ -1,5 +1,5 @@
 
-nav{
+/* nav{
     grid-area: nav;
 }
 
@@ -29,8 +29,8 @@ section{
     justify-items: stretch;
     align-items: stretch;
 }
-
-
+*/
+/*
 body{
     background-image: url(https://i.pinimg.com/originals/7d/7c/80/7d7c80d7d20478443679019063155be4.jpg);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana;
@@ -44,17 +44,17 @@ body{
     max-width: 100% !important;
 }
 
-nav,
+/*nav,
 footer,
 section {
     border-radius: 15px;
 }
 
-nav{
+/*nav{
     margin-left: 1.2em;
-}
+}*/
 
-nav, li{
+/*nav, li{
     padding: 1.2em;
 }
 
@@ -67,7 +67,7 @@ nav li {
 footer {
     background-color: rgba(113, 93, 121, 0.782);
 }
-
+/*
 h1{
     display: inline;
 }
@@ -91,7 +91,7 @@ button{
     padding: 3px;
 }*/
 
-.redes {
+/*.redes {
     font-weight: lighter;
     padding: 5px;
     margin: 5px;
@@ -100,7 +100,7 @@ button{
 
 }
 
-footer {
+/*footer {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -122,26 +122,26 @@ footer {
     width: 6em;
     height: 6em;
 }*/
-
+/*
 section{
     padding: 20px;
     margin-top: 130px !important;
     margin-right: -200px !important;
     margin-left: 20px !important;
     width: 100%;
-}
+}*/
 
-.item{
+/*.item{
     background-color: chartreuse;
     color: white;
 }
 
-.titulos {
+/*.titulos {
     font-weight: lighter;   
 }
 
 
-
+/*
 #artTransition {
     box-shadow: none;
 }
@@ -155,11 +155,14 @@ section{
  margin-top: 20px;
 }
 
-footer {
+/*footer {
     margin-bottom: -40px;
 }
 
-/*.....!PANTALLAS MEDIANAS DESDE 768PX!.....*/
+
+
+/*
+/*.....!PANTALLAS MEDIANAS DESDE 768PX!.....
 @media screen and (min-width: 768px) {
     #main {
         grid-template-columns: auto;
@@ -192,7 +195,7 @@ footer {
         margin-top: 0.6em;
     }
 
-     /*.......NUESTROS.........*/
+     /*.......NUESTROS.........
     .secfullnu {
         width: 119.9%;
         margin-top: 12.2em !important;
@@ -202,7 +205,7 @@ footer {
         margin-left: 1.2em;
         margin-top: 0.6em;
     }
-     /*.......NOVEDADES.........*/
+     /*.......NOVEDADES.........
     .secfullno {
         width: 101.5%;
         margin-top: 12.2em !important;
@@ -212,7 +215,7 @@ footer {
         margin-left: 1.2em;
         margin-top: 0.6em;
     }
-     /*.......DONACIONES.........*/
+     /*.......DONACIONES.........
     .secfulldo {
         width: 101% !important;
         margin-top: 10.7em !important;
@@ -226,7 +229,7 @@ footer {
         margin-left: 1.2em;
         margin-top: 0.6em;
     }
-     /*.......CONTACTO.........*/
+     /*.......CONTACTO.........
      .secfullco {
         width: 131%;
         margin-top: 12.2em !important;
@@ -236,7 +239,7 @@ footer {
         margin-left: 1.2em;
         margin-top: 0.6em !important;
     }
-     /*.......NOSOTROS.........*/
+     /*.......NOSOTROS.........
     .secfullnos {
         width: 101.5%;
         margin-top: 12.2em !important;
@@ -249,7 +252,7 @@ footer {
 
     
 }
-/*.....!PANTALLAS GRANDES DESDE 1200PX!.....*/
+/*.....!PANTALLAS GRANDES DESDE 1200PX!.....
 @media screen and (min-width: 1200px) {
     #main {
         grid-template-columns: auto auto auto ;
@@ -280,7 +283,7 @@ footer {
         width: 183%;
         margin-left: 1.3em;
     }
-     /*.......NUESTROS.........*/
+     /*.......NUESTROS.........
     .secfullnu {
         width: 161%;
         margin-top: 8.1em !important;
@@ -289,7 +292,7 @@ footer {
         width: 160%;
         margin-left: 1.3em;
     }
-     /*.......NOVEDADES.........*/
+     /*.......NOVEDADES.........
     .secfullno {
         width: 101.5%;
         margin-top: 8.1em !important;
@@ -298,7 +301,7 @@ footer {
         width: 101.5%;
         margin-left: 1.3em;
     }
-     /*.......DONACIONES.........*/
+     /*.......DONACIONES.........
     .secfulldo {
         width: 101.5% !important;
         margin-top: 6.6em !important;
@@ -312,7 +315,7 @@ footer {
         margin-left: 1.3em;
         margin-top: 9.5em;
     }
-     /*.......CONTACTO.........*/
+     /*.......CONTACTO.........
      .secfullco {
         width: 176%;
         margin-top: 8.1em !important;
@@ -322,7 +325,7 @@ footer {
         margin-left: 1.3em;
         margin-top: 5em !important;
     }
-     /*.......NOSOTROS.........*/
+     /*.......NOSOTROS.........
     .secfullnos {
         width: 101.5%;
         margin-top: 8.1em !important;
@@ -334,7 +337,7 @@ footer {
     }
 
 }
-   /*.....!PANTALLAS PEQUEÑAS DESDE 540PX!.....*/
+   /*.....!PANTALLAS PEQUEÑAS DESDE 540PX!.....
 @media screen and (max-width: 767px) {
     #main {
         grid-template-columns: auto;
@@ -367,7 +370,7 @@ footer {
         margin-top: 0.6em !important;
     }
 
-     /*.......NUESTROS.........*/
+     /*.......NUESTROS.........
     .secfullnu {
         width: 102%;
         margin-top: 16.3em !important;
@@ -377,7 +380,7 @@ footer {
         margin-left: 1.3em;
         margin-top: 0.6em !important;
     }
-     /*.......NOVEDADES.........*/
+     /*.......NOVEDADES.........
     .secfullno {
         width: 101.5%;
         margin-top: 16.3em !important;
@@ -387,7 +390,7 @@ footer {
         margin-left: 1.3em;
         margin-top: 0.6em;
     }
-     /*.......DONACIONES.........*/
+     /*.......DONACIONES.........
     .secfulldo {
         width: 102% !important;
         margin-top: 14.7em !important;
@@ -401,7 +404,7 @@ footer {
         margin-left: 1.3em;
         margin-top: 0.6em;
     }
-     /*.......CONTACTO.........*/
+     /*.......CONTACTO.........
      .secfullco {
         width: 114.5%;
         margin-top: 16.3em !important;
@@ -411,7 +414,7 @@ footer {
         margin-left: 1.3em;
         margin-top: 0.6em !important;
     }
-     /*.......NOSOTROS.........*/
+     /*.......NOSOTROS.........
     .secfullnos {
         width: 101.5%;
         margin-top: 16.3em !important;
@@ -424,7 +427,7 @@ footer {
 
     
 }
-/*.....!PANTALLAS EXTRAGRANDES DESDE 1365PX!.....*/
+/*.....!PANTALLAS EXTRAGRANDES DESDE 1365PX!.....
 @media screen and (min-width: 1365px) {
     #main {
         grid-template-columns: auto auto auto ;
@@ -455,7 +458,7 @@ footer {
         width: 190%;
         margin-left: 1.6em;
     }
-     /*.......NUESTROS.........*/
+     /*.......NUESTROS.........
     .secfullnu {
         width: 168.5%;
         margin-top: 8.1em !important;
@@ -464,7 +467,7 @@ footer {
         width: 167% !important;
         margin-left: 1.6em;
     }
-     /*.......NOVEDADES.........*/
+     /*.......NOVEDADES.........
     .secfullno {
         width: 100.4%;
         margin-top: 8.1em !important;
@@ -473,7 +476,7 @@ footer {
         width: 100%;
         margin-left: 1.3em;
     }
-     /*.......DONACIONES.........*/
+     /*.......DONACIONES.........
     .secfulldo {
         width: 101.5% !important;
         margin-top: 6.6em !important;
@@ -487,7 +490,7 @@ footer {
         margin-left: 1.3em;
         margin-top: 12.5em;
     }
-     /*.......CONTACTO.........*/
+     /*.......CONTACTO.........
      .secfullco {
         width: 183.3%;
         margin-top: 8.1em !important;
@@ -497,7 +500,7 @@ footer {
         margin-left: 1.3em;
         margin-top: 5.8em !important;
     }
-     /*.......NOSOTROS.........*/
+     /*.......NOSOTROS.........
     .secfullnos {
         width: 100.5%;
         margin-top: 8.1em !important;
@@ -509,6 +512,7 @@ footer {
     }
 
 }
+*/
 
 
 

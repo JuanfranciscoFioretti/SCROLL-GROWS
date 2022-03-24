@@ -1,9 +1,80 @@
+@charset "UTF-8";
+nav {
+  grid-area: nav;
+}
+
+section {
+  grid-area: section;
+}
+
+footer {
+  grid-area: footer;
+}
+
+#main {
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: 15% auto 15%;
+  grid-column-gap: 10px;
+  grid-row-gap: 10px;
+  grid-template-areas: "nav nav" "section section" "footer footer";
+  width: 100%;
+  height: 100%;
+  margin: -20px;
+  max-height: 100% !important;
+  max-width: 100% !important;
+}
+
+section {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-template-rows: auto auto auto;
+  grid-column-gap: 15px;
+  grid-row-gap: 15px;
+  justify-items: stretch;
+  align-items: stretch;
+}
+
+body {
+  background-image: url(https://i.pinimg.com/originals/7d/7c/80/7d7c80d7d20478443679019063155be4.jpg);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana;
+}
+
+body .nav {
+  position: fixed !important;
+  padding-left: 40px !important;
+  margin-top: 20px;
+}
+
+body .titulos {
+  font-weight: lighter;
+}
+
+body .item {
+  background-color: chartreuse;
+  color: white;
+}
+
 body nav {
   background-color: rgba(169, 116, 169, 0.9);
+  margin-left: 1.2em;
+  padding: 1.2em;
+  border-radius: 15px;
+}
+
+body nav h1 {
+  display: inline;
+}
+
+body nav li {
+  padding: 1.2em;
+  text-align: start !important;
+  justify-content: space-around !important;
 }
 
 body nav a {
   color: black;
+  text-decoration: none;
 }
 
 body nav :hover {
@@ -12,6 +83,29 @@ body nav :hover {
 
 body section {
   background-color: rgba(136, 78, 136, 0.604);
+  border-radius: 15px;
+  padding: 20px;
+  margin-top: 130px;
+  margin-right: -200px;
+  margin-left: 20px;
+  width: 100%;
+}
+
+body section .repro {
+  color: black;
+  text-decoration: none;
+}
+
+body section :hover {
+  color: #E8DD9C;
+}
+
+body section #artTransition {
+  box-shadow: none;
+}
+
+body section #artTransition:hover {
+  box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.5);
 }
 
 body section img {
@@ -29,4 +123,363 @@ body section article button {
   border-radius: 1em;
   background-color: white;
   padding: 1em;
+  text-decoration: none;
+  color: #000000 !important;
+}
+
+body footer {
+  background-color: rgba(113, 93, 121, 0.782);
+  border-radius: 15px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: -40px;
+}
+
+body footer .redes {
+  font-weight: lighter;
+  padding: 5px;
+  margin: 5px;
+  border-color: rgba(34, 1, 34, 0.659);
+  border-radius: 7px;
+}
+
+/*.....!MEDIA QUERYS!.....*/
+/*.....!PANTALLAS MEDIANAS DESDE 768PX!.....*/
+@media screen and (min-width: 768px) {
+  #main {
+    grid-template-columns: auto;
+    grid-template-rows: 20% auto 15%;
+    grid-column-gap: 10px;
+    grid-row-gap: 15px;
+    grid-template-areas: "nav nav" "section section" "footer footer";
+  }
+  section {
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto;
+    grid-column-gap: 15px;
+    grid-row-gap: 15px;
+    grid-template-areas: "section";
+    justify-items: stretch;
+    align-items: stretch;
+  }
+  .secfull {
+    width: 135.5%;
+    margin-top: 12.2em !important;
+  }
+  #navfull {
+    margin-right: 0.7em !important;
+  }
+  #footfull {
+    width: 135%;
+    margin-left: 1.2em;
+    margin-top: 0.6em;
+  }
+  /*.......NUESTROS.........*/
+  .secfullnu {
+    width: 119.9%;
+    margin-top: 12.2em !important;
+  }
+  #footfullnu {
+    width: 119.4%;
+    margin-left: 1.2em;
+    margin-top: 0.6em;
+  }
+  /*.......NOVEDADES.........*/
+  .secfullno {
+    width: 101.5%;
+    margin-top: 12.2em !important;
+  }
+  #footfullno {
+    width: 101%;
+    margin-left: 1.2em;
+    margin-top: 0.6em;
+  }
+  /*.......DONACIONES.........*/
+  .secfulldo {
+    width: 101% !important;
+    margin-top: 10.7em !important;
+  }
+  #navfulldo {
+    margin-top: -0.3em !important;
+    margin-right: 0.7em !important;
+  }
+  #footfulldo {
+    width: 101%;
+    margin-left: 1.2em;
+    margin-top: 0.6em;
+  }
+  /*.......CONTACTO.........*/
+  .secfullco {
+    width: 131%;
+    margin-top: 12.2em !important;
+  }
+  #footfullco {
+    width: 131%;
+    margin-left: 1.2em;
+    margin-top: 0.6em !important;
+  }
+  /*.......NOSOTROS.........*/
+  .secfullnos {
+    width: 101.5%;
+    margin-top: 12.2em !important;
+  }
+  #footfullnos {
+    width: 102%;
+    margin-left: 1.2em;
+    margin-top: 9em !important;
+  }
+}
+
+/*.....!PANTALLAS GRANDES DESDE 1200PX!.....*/
+@media screen and (min-width: 1200px) {
+  #main {
+    grid-template-columns: auto auto auto;
+    grid-template-rows: 20% auto 15%;
+    grid-column-gap: 10px;
+    grid-row-gap: 15px;
+    grid-template-areas: "nav nav" "section section" "footer footer";
+  }
+  section {
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto;
+    grid-column-gap: 15px;
+    grid-row-gap: 15px;
+    grid-template-areas: "section";
+    justify-items: stretch;
+    align-items: stretch;
+  }
+  .secfull {
+    width: 184.3%;
+    margin-top: 8.1em !important;
+  }
+  #navfull {
+    padding-right: 7.5em !important;
+  }
+  #footfull {
+    width: 183%;
+    margin-left: 1.3em;
+  }
+  /*.......NUESTROS.........*/
+  .secfullnu {
+    width: 161%;
+    margin-top: 8.1em !important;
+  }
+  #footfullnu {
+    width: 160%;
+    margin-left: 1.3em;
+  }
+  /*.......NOVEDADES.........*/
+  .secfullno {
+    width: 101.5%;
+    margin-top: 8.1em !important;
+  }
+  #footfullno {
+    width: 101.5%;
+    margin-left: 1.3em;
+  }
+  /*.......DONACIONES.........*/
+  .secfulldo {
+    width: 101.5% !important;
+    margin-top: 6.6em !important;
+  }
+  #navfulldo {
+    padding-right: 7.5em !important;
+    margin-top: -0.8em;
+  }
+  #footfulldo {
+    width: 101%;
+    margin-left: 1.3em;
+    margin-top: 9.5em;
+  }
+  /*.......CONTACTO.........*/
+  .secfullco {
+    width: 176%;
+    margin-top: 8.1em !important;
+  }
+  #footfullco {
+    width: 175.5%;
+    margin-left: 1.3em;
+    margin-top: 5em !important;
+  }
+  /*.......NOSOTROS.........*/
+  .secfullnos {
+    width: 101.5%;
+    margin-top: 8.1em !important;
+  }
+  #footfullnos {
+    width: 101.5%;
+    margin-left: 1.3em;
+    margin-top: 16em !important;
+  }
+}
+
+/*.....!PANTALLAS PEQUEÑAS DESDE 540PX!.....*/
+@media screen and (max-width: 767px) {
+  #main {
+    grid-template-columns: auto;
+    grid-template-rows: 20% auto 15%;
+    grid-column-gap: 10px;
+    grid-row-gap: 15px;
+    grid-template-areas: "nav nav" "section section" "footer footer";
+  }
+  section {
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto;
+    grid-column-gap: 15px;
+    grid-row-gap: 15px;
+    grid-template-areas: "section";
+    justify-items: stretch;
+    align-items: stretch;
+  }
+  .secfull {
+    width: 116.8%;
+    margin-top: 16.3em !important;
+  }
+  #navfull {
+    margin-right: 0.9em !important;
+  }
+  #footfull {
+    width: 116%;
+    margin-left: 1.3em;
+    margin-top: 0.6em !important;
+  }
+  /*.......NUESTROS.........*/
+  .secfullnu {
+    width: 102%;
+    margin-top: 16.3em !important;
+  }
+  #footfullnu {
+    width: 102% !important;
+    margin-left: 1.3em;
+    margin-top: 0.6em !important;
+  }
+  /*.......NOVEDADES.........*/
+  .secfullno {
+    width: 101.5%;
+    margin-top: 16.3em !important;
+  }
+  #footfullno {
+    width: 102%;
+    margin-left: 1.3em;
+    margin-top: 0.6em;
+  }
+  /*.......DONACIONES.........*/
+  .secfulldo {
+    width: 102% !important;
+    margin-top: 14.7em !important;
+  }
+  #navfulldo {
+    margin-top: -5px !important;
+    margin-right: 12px !important;
+  }
+  #footfulldo {
+    width: 102%;
+    margin-left: 1.3em;
+    margin-top: 0.6em;
+  }
+  /*.......CONTACTO.........*/
+  .secfullco {
+    width: 114.5%;
+    margin-top: 16.3em !important;
+  }
+  #footfullco {
+    width: 115%;
+    margin-left: 1.3em;
+    margin-top: 0.6em !important;
+  }
+  /*.......NOSOTROS.........*/
+  .secfullnos {
+    width: 101.5%;
+    margin-top: 16.3em !important;
+  }
+  #footfullnos {
+    width: 102%;
+    margin-left: 1.3em;
+    margin-top: 0.6em !important;
+  }
+}
+
+/*.....!PANTALLAS EXTRAGRANDES DESDE 1365PX!.....*/
+@media screen and (min-width: 1365px) {
+  #main {
+    grid-template-columns: auto auto auto;
+    grid-template-rows: 20% auto 15%;
+    grid-column-gap: 10px;
+    grid-row-gap: 15px;
+    grid-template-areas: "nav nav" "section section" "footer footer";
+  }
+  section {
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto;
+    grid-column-gap: 15px;
+    grid-row-gap: 15px;
+    grid-template-areas: "section";
+    justify-items: stretch;
+    align-items: stretch;
+  }
+  .secfull {
+    width: 191.9%;
+    margin-top: 8.1em !important;
+  }
+  #navfull {
+    padding-right: 16.6em !important;
+  }
+  #footfull {
+    width: 190%;
+    margin-left: 1.6em;
+  }
+  /*.......NUESTROS.........*/
+  .secfullnu {
+    width: 168.5%;
+    margin-top: 8.1em !important;
+  }
+  #footfullnu {
+    width: 167% !important;
+    margin-left: 1.6em;
+  }
+  /*.......NOVEDADES.........*/
+  .secfullno {
+    width: 100.4%;
+    margin-top: 8.1em !important;
+  }
+  #footfullno {
+    width: 100%;
+    margin-left: 1.3em;
+  }
+  /*.......DONACIONES.........*/
+  .secfulldo {
+    width: 101.5% !important;
+    margin-top: 6.6em !important;
+  }
+  #navfulldo {
+    padding-right: 17.4em !important;
+    margin-top: -0.8em;
+  }
+  #footfulldo {
+    width: 101%;
+    margin-left: 1.3em;
+    margin-top: 12.5em;
+  }
+  /*.......CONTACTO.........*/
+  .secfullco {
+    width: 183.3%;
+    margin-top: 8.1em !important;
+  }
+  #footfullco {
+    width: 182.5%;
+    margin-left: 1.3em;
+    margin-top: 5.8em !important;
+  }
+  /*.......NOSOTROS.........*/
+  .secfullnos {
+    width: 100.5%;
+    margin-top: 8.1em !important;
+  }
+  #footfullnos {
+    width: 101.5%;
+    margin-left: 1.3em;
+    margin-top: 18.7em !important;
+  }
 }
