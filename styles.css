@@ -1,17 +1,17 @@
 body nav {
-  background-color: rgba(211, 166, 211, 0.9);
+  background-color: rgba(169, 116, 169, 0.9);
 }
 
 body nav a {
   color: black;
 }
 
-body nav a:hover {
+body nav :hover {
   color: #E8DD9C;
 }
 
 body section {
-  background-color: rgba(211, 166, 211, 0.604);
+  background-color: rgba(136, 78, 136, 0.604);
 }
 
 body section img {
