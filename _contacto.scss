@@ -1,0 +1,11 @@
+
+body {
+    section {
+        a {
+            color: black;
+        }
+        & :hover {
+            color: black;
+        }  
+    }
+}
