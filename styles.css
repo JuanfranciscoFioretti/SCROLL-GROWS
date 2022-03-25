@@ -428,6 +428,11 @@ body footer .tw {
     margin-left: 1.3em;
     margin-top: 0.6em !important;
   }
+  /*@if $tamanoPant <=767px {
+        nav, li{
+            size: $tamanoA;
+        }
+    }*/
 }
 
 /*.....!PANTALLAS EXTRAGRANDES DESDE 1365PX!.....*/
@@ -511,4 +516,8 @@ body footer .tw {
     margin-left: 1.3em;
     margin-top: 18.7em !important;
   }
+}
+
+body .secfullnu article img {
+  border-radius: 5em;
 }
