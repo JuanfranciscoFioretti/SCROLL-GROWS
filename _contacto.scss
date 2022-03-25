@@ -1,11 +1,14 @@
+@import "_variables";
 
 body {
-    section {
-        a {
-            color: black;
-        }
-        & :hover {
-            color: black;
-        }  
+    .seccontac {
+        form {
+            label {
+              color: black;
+            }
+            &:hover {
+                color: $colorA;
+            }
+        } 
     }
 }

@@ -1,4 +1,12 @@
 @charset "UTF-8";
+body .seccontac form label {
+  color: black;
+}
+
+body .seccontac form:hover {
+  color: #E8DD9C;
+}
+
 nav {
   grid-area: nav;
 }
